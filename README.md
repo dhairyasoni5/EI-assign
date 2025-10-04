@@ -10,66 +10,58 @@ A Java application demonstrating six design patterns (Singleton, Factory, Observ
 ### [Assignment 2: Smart Home System](./assignment2/)
 A comprehensive Java application demonstrating multiple design patterns (Singleton, Factory, Proxy, Observer, Command) in a smart home automation system with security features and automation rules.
 
-## What This Project Does
+## What This Repository Contains
 
-This is a learning management system that simulates how students interact with questions, how teachers monitor progress, and how the system integrates with external content. It's built to show how different programming patterns work together in a real application.
+This repository contains Java applications that demonstrate various design patterns through practical, real-world scenarios. Each assignment showcases different combinations of design patterns in unique contexts:
 
-## Design Patterns Demonstrated
+- **Assignment 1**: Educational platform simulation with learning management features
+- **Assignment 2**: Smart home automation system with security and automation capabilities
 
-1. **Singleton** - One central repository for all learning content
-2. **Factory** - Creates different types of questions automatically  
-3. **Observer** - Notifies teachers and parents when students answer questions
-4. **Command** - Lets students undo their answers
-5. **Decorator** - Adds hints and explanations to questions
-6. **Adapter** - Connects to external university video content
+## Design Patterns Demonstrated Across Assignments
 
-## How to Run
+### Creational Patterns
+- **Singleton** - Ensures single instances of critical system components
+- **Factory** - Creates objects without exposing instantiation logic
+
+### Structural Patterns  
+- **Adapter** - Connects incompatible systems and interfaces
+- **Decorator** - Adds functionality to objects dynamically
+- **Proxy** - Provides controlled access to sensitive operations
+
+### Behavioral Patterns
+- **Observer** - Enables event-driven communication between components
+- **Command** - Encapsulates operations for undo functionality and automation
+
+## How to Run Each Assignment
 
 ### Prerequisites
 - Java 8 or higher installed on your computer
 
-### Steps
+### Assignment 1: MindSpark Neo Learning Platform
+Navigate to the `assignment1/` directory and follow the instructions in its README.md
 
-1. **Compile the code:**
-   ```bash
-   javac -d bin -cp src (Get-ChildItem -Recurse -Path src -Filter "*.java" | ForEach-Object { $_.FullName })
-   ```
+### Assignment 2: Smart Home System  
+Navigate to the `assignment2/` directory and follow the instructions in its README.md
 
-2. **Run the application:**
-   ```bash
-   java -cp bin com.ei.mindsparkneo.MindSparkNeoSim
-   ```
-
-### What You'll See
-
-The program will show:
-- A student named Arya answering math and geography questions
-- Real-time notifications to teachers and parents
-- Questions with hints and explanations
-- Integration with external video content
-- The ability to undo answers
-
-## Project Structure
+## Repository Structure
 
 ```
-src/com/ei/mindsparkneo/
-├── MindSparkNeoSim.java          # Main program
-├── model/                        # Core data classes
-├── patterns/                     # Design pattern implementations
-│   ├── creational/              # Singleton, Factory
-│   ├── structural/              # Adapter, Decorator  
-│   └── behavioral/              # Observer, Command
-├── exception/                    # Custom error handling
-└── external/                     # Third-party API simulation
+├── assignment1/                  # MindSpark Neo Learning Platform
+│   ├── src/                     # Source code
+│   └── README.md               # Assignment 1 documentation
+├── assignment2/                  # Smart Home System
+│   ├── src/                     # Source code
+│   └── README.md               # Assignment 2 documentation
+└── README.md                    # This file - repository overview
 ```
 
-## Why These Patterns Matter
+## Learning Objectives
 
-- **Singleton**: Prevents duplicate content loading
-- **Factory**: Makes adding new question types easy
-- **Observer**: Keeps everyone informed of student progress
-- **Command**: Provides undo functionality
-- **Decorator**: Adds features without changing original code
-- **Adapter**: Works with incompatible external systems
+These assignments demonstrate how design patterns solve real-world software engineering challenges:
 
-This project shows how these patterns solve real problems in software development, not just academic exercises.
+- **Code Reusability**: Patterns promote reusable, maintainable code
+- **System Architecture**: Show how patterns work together in complex systems  
+- **Problem Solving**: Illustrate practical applications beyond academic examples
+- **Best Practices**: Demonstrate industry-standard software design principles
+
+Each assignment includes detailed documentation, compilation instructions, and example usage scenarios to help understand the practical value of design patterns in software development.

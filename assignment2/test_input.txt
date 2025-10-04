@@ -1,0 +1,11 @@
+1
+4
+main_thermostat
+80
+2
+living_room_light
+5
+front_door
+1234
+1
+0

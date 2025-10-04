@@ -1,0 +1,98 @@
+Welcome to the Smart Home Simulation!
+[SYSTEM LOG]: New device added: Light with ID 'living_room_light'
+[SYSTEM LOG]: New device added: Thermostat with ID 'main_thermostat'
+[SYSTEM LOG]: New device added: DoorLock with ID 'front_door'
+[SYSTEM LOG]: New trigger added: If temp > 75°F, turn off living room light
+
+--- System Initialized ---
+
+--- CURRENT DEVICE STATUSES ---
+- Light living_room_light is currently OFF
+- Thermostat main_thermostat is set to 70°F
+- Door front_door is currently LOCKED
+-----------------------------
+Automation Rule Added: If temp > 75°F, turn off living room light
+--------------------------
+
+========= Smart Home Menu =========
+1. View all device statuses
+2. Turn ON a light
+3. Turn OFF a light
+4. Set thermostat temperature
+5. UNLOCK the front door
+6. LOCK the front door
+0. Exit
+===================================
+Choose an option: 
+--- CURRENT DEVICE STATUSES ---
+- Light living_room_light is currently OFF
+- Thermostat main_thermostat is set to 70°F
+- Door front_door is currently LOCKED
+-----------------------------
+
+========= Smart Home Menu =========
+1. View all device statuses
+2. Turn ON a light
+3. Turn OFF a light
+4. Set thermostat temperature
+5. UNLOCK the front door
+6. LOCK the front door
+0. Exit
+===================================
+Choose an option: Enter ID of the thermostat (e.g., 'main_thermostat'): Enter new temperature: Thermostat main_thermostat temperature set to 80°F.
+[SYSTEM LOG]: A command was executed.
+
+--- TRIGGER ACTIVATED: If temp > 75°F, turn off living room light ---
+Light living_room_light is now OFF.
+--- TRIGGER ACTION COMPLETE ---
+
+========= Smart Home Menu =========
+1. View all device statuses
+2. Turn ON a light
+3. Turn OFF a light
+4. Set thermostat temperature
+5. UNLOCK the front door
+6. LOCK the front door
+0. Exit
+===================================
+Choose an option: Enter ID of the light to turn ON (e.g., 'living_room_light'): Light living_room_light is now ON.
+[SYSTEM LOG]: A command was executed.
+
+========= Smart Home Menu =========
+1. View all device statuses
+2. Turn ON a light
+3. Turn OFF a light
+4. Set thermostat temperature
+5. UNLOCK the front door
+6. LOCK the front door
+0. Exit
+===================================
+Choose an option: Enter ID of the door to UNLOCK (e.g., 'front_door'): This is a secure action. Please enter PIN: Door front_door has been UNLOCKED.
+[SYSTEM LOG]: A command was executed.
+
+========= Smart Home Menu =========
+1. View all device statuses
+2. Turn ON a light
+3. Turn OFF a light
+4. Set thermostat temperature
+5. UNLOCK the front door
+6. LOCK the front door
+0. Exit
+===================================
+Choose an option: 
+--- CURRENT DEVICE STATUSES ---
+- Light living_room_light is currently ON
+- Thermostat main_thermostat is set to 80°F
+- Door front_door is currently UNLOCKED
+-----------------------------
+
+========= Smart Home Menu =========
+1. View all device statuses
+2. Turn ON a light
+3. Turn OFF a light
+4. Set thermostat temperature
+5. UNLOCK the front door
+6. LOCK the front door
+0. Exit
+===================================
+Choose an option: Exiting Smart Home Simulation. Goodbye!

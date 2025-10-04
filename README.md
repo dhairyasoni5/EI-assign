@@ -7,8 +7,8 @@ This repository contains assignments for the Engineering Innovation course.
 ### [Assignment 1: MindSpark Neo Learning Platform](./assignment1/)
 A Java application demonstrating six design patterns (Singleton, Factory, Observer, Command, Decorator, Adapter) through an educational platform simulation.
 
-### [Assignment 2: TBD](./assignment2/)
-*Coming soon...*
+### [Assignment 2: Smart Home System](./assignment2/)
+A comprehensive Java application demonstrating multiple design patterns (Singleton, Factory, Proxy, Observer, Command) in a smart home automation system with security features and automation rules.
 
 ## What This Project Does
 
